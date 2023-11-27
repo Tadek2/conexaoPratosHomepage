@@ -1,0 +1,55 @@
+/* Ajuste a cor de fundo da ion-toolbar */
+ion-toolbar {
+  --background: #ffc107;
+}
+
+.imagem {
+  margin-top: -3rem;
+}
+
+.footer ion-toolbar {
+  --background: #212529;
+}
+
+.footer .footer-icons {
+  justify-content: flex-end;
+}
+
+.scroll {
+  flex-wrap: nowrap;
+  overflow-y: hidden;
+  overflow-x: scroll !important;
+}
+
+.carrosel {
+  --background: #212529;
+  --color: #ffffff;
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+}
+
+.comidas {
+  border-radius: 5px;
+  margin: 0px 25px;
+  --background: white;
+  margin-bottom: 2rem;
+}
+
+.imagemEmenta {
+  margin-top: 4px;
+}
+
+.descricao {
+  height: 8rem;
+  margin: 1rem;
+}
+
+.ult-linha {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carrinho {
+  position: relative;
+  top: -5rem;
+}
